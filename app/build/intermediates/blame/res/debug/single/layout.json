@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_liste.xml",
+        "source": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\src\\main\\res\\layout\\layout_liste.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hf.xml",
+        "source": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\src\\main\\res\\layout\\activity_hf.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_repas.xml",
+        "source": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\src\\main\\res\\layout\\activity_repas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hf_recap.xml",
+        "source": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\src\\main\\res\\layout\\activity_hf_recap.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_km.xml",
+        "source": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\src\\main\\res\\layout\\activity_km.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nuit.xml",
+        "source": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\src\\main\\res\\layout\\activity_nuit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_etape.xml",
+        "source": "C:\\Users\\Jeremie\\AndroidStudioProjects\\SuiviDeVosFraisV2\\app\\src\\main\\res\\layout\\activity_etape.xml"
+    }
+]

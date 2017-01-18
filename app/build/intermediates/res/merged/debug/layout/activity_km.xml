@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vue.KmActivity"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal|center">
+
+                <TextView
+                    android:text="Kilometres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textStyle="normal|bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <ImageView
+                    android:id="@+id/imgKmReturn"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/aeroplane" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:paddingTop="20dp" >
+
+            <DatePicker
+                android:id="@+id/datKm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/bg">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/lblKm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Km"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="normal|bold|italic"
+                    android:textColor="@android:color/background_light" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:paddingRight="10dp" >
+
+                <EditText
+                    android:id="@+id/txtKm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:inputType="number" >
+
+                    <requestFocus />
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.61"
+                android:orientation="vertical"
+                android:paddingLeft="5dp" >
+
+                <Button
+                    android:id="@+id/cmdKmPlus"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:textSize="20sp"
+                    android:background="@drawable/plus"
+                    android:layout_marginLeft="10dp" />
+
+                <Button
+                    android:id="@+id/cmdKmMoins"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:textSize="20sp"
+                    android:background="@drawable/minus"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.80"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:clipToPadding="true"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/cmdKmValider"
+                android:background="@drawable/checked"
+                android:layout_width="50dp"
+                android:layout_weight="0.11"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

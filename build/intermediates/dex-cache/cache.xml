@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jeremie\AndroidStudioProjects\SuiviDeVosFraisV2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f596838b93909c159bcf1c79270284d669fa8adb">
+        <dex dex="C:\Users\Jeremie\AndroidStudioProjects\SuiviDeVosFraisV2\app\build\intermediates\pre-dexed\debug\instant-run_720e201f4a6a3a29668e3344b4742dfcbc8299fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jeremie\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Jeremie\AndroidStudioProjects\SuiviDeVosFraisV2\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_6fe8b44237b0daa5187fe9cf794dc196c9452a08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jeremie\AndroidStudioProjects\SuiviDeVosFraisV2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b1393c681d311e49b7f18df1eaad866549c41414">
+        <dex dex="C:\Users\Jeremie\AndroidStudioProjects\SuiviDeVosFraisV2\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_74b61719690827c56e3a9dbb349d8831eb5c4e64.jar" />
+    </item>
+
+</items>
